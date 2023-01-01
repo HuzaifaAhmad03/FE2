@@ -1,0 +1,63 @@
+
+
+
+.main{
+    background: rgb(220,220,255);
+    background: linear-gradient(90deg, rgba(220,220,255,1) 10%, rgba(0,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    color: rgb(0, 0, 43);
+    font-family: Georgia;
+}
+
+.image{border-radius: 100%;}
+.image:hover{
+    transform: scale(1.2);
+    box-shadow: 
+                rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.22) 0px -12px 30px,
+                rgba(0, 0, 0, 0.22) 0px 4px 6px,
+                rgba(0, 0, 0, 0.27) 0px 12px 13px,
+                rgba(0, 0, 0, 0.19) 0px -3px 5px;
+}
+
+hr{
+    height:3px; 
+    width:90%; 
+    background: rgb(0,0,43);
+    border:2px solid;
+    border-color: rgb(0, 185, 185);
+    border-radius: 12px;
+}
+hr:hover{border-color: rgb(0,0,43);background: rgb(0,207,207);}
+
+.mainhead{color: rgb(10,10,20);}
+.mainhead:hover{color: rgb(20,20,30);transform: scaleX(1.1);text-shadow: 3px 3px rgba(0, 84, 84, 0.489);}
+
+.heading{color: rgb(10, 10, 30);padding-left: 10%;}
+.heading:hover{color: rgb(10,10,40);transform: scaleX(1.02);text-shadow:2px 2px rgba(0, 84, 84, 0.489);}
+
+.link{color: rgb(0,0,43);display: inline-block;}
+.link:hover{color:rgb(0, 0, 203);transform: scale(1.05);}
+
+.ulschools{padding-left: 10%;}
+.hobbies{padding-left: 10%;}
+
+thead{color: rgb(15,15,30);}
+.tables{padding-left: 10%;text-align: center;}
+.row:hover{
+    background-color: rgba(0, 226, 226, 0.879);
+    transform: scale(1.05);
+}
+
+.footer{padding-left: 10%;}
+
+.form{
+    padding-left: 5%;
+}
+.inp{
+    background-color: rgba(0, 228, 228, 0.484);
+    border-radius: 5px;
+    border-color: rgb(0, 128, 128);
+}
+.inp:hover{
+    transform: scale(1.05);
+}
