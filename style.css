@@ -1,14 +1,25 @@
-
-
-
 .main{
-    background: rgb(220,220,255);
-    background: linear-gradient(90deg, rgba(220,220,255,1) 10%, rgba(0,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(135, 206, 235,1) 10%,rgba(0, 255, 255,1) 90%,rgba(255, 255, 255,1) 100%);
     color: rgb(0, 0, 43);
-    font-family: Georgia;
+    font-family: 'Roboto', sans-serif;
 }
 
-.image{border-radius: 100%;}
+.header{
+    padding: 5%;
+    background-image: url("bg.jpeg");
+    background-color: rgba(116, 215, 255, 0.5);
+    background-blend-mode: multiply;
+    background-size:cover;
+    border-bottom:solid 5px;
+    border-color: rgb(0, 0, 43);
+}
+
+.image{
+    margin-right: 10%;
+    border-radius: 100%;
+    float: left;
+}
 .image:hover{
     transform: scale(1.2);
     box-shadow: 
@@ -17,6 +28,10 @@
                 rgba(0, 0, 0, 0.22) 0px 4px 6px,
                 rgba(0, 0, 0, 0.27) 0px 12px 13px,
                 rgba(0, 0, 0, 0.19) 0px -3px 5px;
+}
+
+para-1{
+    display: inline;
 }
 
 hr{
@@ -29,7 +44,12 @@ hr{
 }
 hr:hover{border-color: rgb(0,0,43);background: rgb(0,207,207);}
 
-.mainhead{color: rgb(10,10,20);}
+.mainhead{
+    font-size: 250%;
+    display: inline-block;
+    color: rgb(10,10,20);
+    font-family: 'Satisfy', cursive;
+}
 .mainhead:hover{color: rgb(20,20,30);transform: scaleX(1.1);text-shadow: 3px 3px rgba(0, 84, 84, 0.489);}
 
 .heading{color: rgb(10, 10, 30);padding-left: 10%;}
@@ -42,13 +62,19 @@ hr:hover{border-color: rgb(0,0,43);background: rgb(0,207,207);}
 .hobbies{padding-left: 10%;}
 
 thead{color: rgb(15,15,30);}
-.tables{padding-left: 10%;text-align: center;}
+.tables{
+    padding-left: 10%;
+    text-align: center;
+    margin: 0;
+}
 .row:hover{
     background-color: rgba(0, 226, 226, 0.879);
     transform: scale(1.05);
 }
 
-.footer{padding-left: 10%;}
+.footer{
+    text-align: center;
+}
 
 .form{
     padding-left: 5%;
@@ -60,4 +86,19 @@ thead{color: rgb(15,15,30);}
 }
 .inp:hover{
     transform: scale(1.05);
+}
+
+
+.btn{
+    border: 0.5px;
+    border-radius: 10px;
+    color: rgb(0,0,43);
+    height: 3em;
+    background-image: linear-gradient(180deg,rgb(128, 128, 170,1) 10%,rgb(135, 206, 235,1) 90%);
+}
+
+.btn:hover{
+    color: rgb(0,0,203);
+    height: 3.5em;
+    background-image: linear-gradient(180deg,rgb(135, 206, 235,1) 10%,rgb(128, 128, 170,1) 90%);
 }
