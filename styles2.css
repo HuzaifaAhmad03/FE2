@@ -1,0 +1,149 @@
+.main{
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(10, 10, 10) 40%,rgba(0, 0, 50,1) 100%,rgb(0, 0, 70) 100%);
+    color: rgb(91, 136, 237);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    padding: 5%;
+    background-image: url("bg2.jpg");
+    background-color: rgba(116, 215, 255, 0.5);
+    background-blend-mode: multiply;
+    background-size:cover;
+    border-bottom:solid 5px;
+    border-color: rgb(0, 0, 43);
+}
+
+.image{
+    margin-right: 10%;
+    border-radius: 100%;
+    float: left;
+}
+.image:hover{
+    transform: scale(1.2);
+    box-shadow: 
+                rgba(163, 124, 254, 0.314) 0px 20px 20px,
+                rgba(163, 124, 254, 0.314) 0px -42px 30px,
+                rgba(163, 124, 254, 0.314) 0px 4px 6px,
+                rgba(163, 124, 254, 0.314) 0px 12px 13px,
+                rgba(163, 124, 254, 0.314) 0px 3px 5px;
+}
+
+.theme-button{
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 170%;
+    background-color: rgba(199, 199, 255, 0.438);
+}
+.theme-button:hover{
+    background-color: rgb(199, 199, 255);
+    transform: scale(1.03);
+}
+
+.ed-table{
+    margin: auto;
+    border: 2px solid rgb(0, 185, 185);
+}
+.ed-table:hover{
+    transform: scale(1.03);
+    border: 1px solid rgba(163, 124, 254, 0.4);
+    box-shadow: 0px 0px 12px 6px rgba(163,124,254,0.9);
+}
+
+para-1{
+    display: inline;
+}
+
+hr{
+    height:3px; 
+    width:90%; 
+    background: rgb(0,0,43);
+    border:2px solid;
+    border-color: rgb(0, 185, 185);
+    border-radius: 12px;
+}
+hr:hover{border-color: rgb(0,0,43);background: rgb(0,207,207);}
+
+.mainhead{
+    font-size: 250%;
+    display: inline-block;
+    color: rgb(91, 136, 237);
+    font-family: 'Satisfy', cursive;
+}
+.mainhead:hover{color: rgb(91,136,237);transform: scaleX(1.1);text-shadow: 3px 3px rgba(163, 124, 254, 0.489);}
+
+.education{
+    text-align: center;
+}
+
+.skills-div:hover{
+    border-radius: 20px;
+    background-color: rgb(0,0,10);
+    transform: scale(1.02);
+    box-shadow: 2px 3px 30px rgba(163,124,254,0.9);
+}
+
+.heading{color: rgb(136, 172, 255);padding-left: 10%;}
+.heading:hover{color: rgb(195, 195, 255);transform: scaleX(1.02);text-shadow:2px 2px rgba(0, 84, 84, 0.489);}
+
+.link{color: rgb(91, 136, 237);display: inline-block;}
+.link:hover{color:rgb(0, 0, 203);transform: scale(1.05);}
+
+.ulschools{padding-left: 10%;}
+.hobbies{padding-left: 10%;}
+
+thead{color: rgb(91, 136, 237);}
+.tables{
+    padding-left: 10%;
+    text-align: center;
+    margin: 0;
+}
+.row:hover{
+    background-color: rgba(0, 0, 40, 0.879);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 12px 6px rgba(163,124,254,0.9);
+}
+
+.footer{
+    text-align: center;
+}
+
+.form{
+    padding-left: 5%;
+}
+.inp{
+    background-color: rgba(0, 228, 228, 0.484);
+    border-radius: 5px;
+    border-color: rgb(0, 128, 128);
+}
+.inp:hover{
+    transform: scale(1.05);
+}
+
+.other-skills{
+    padding: 0.4%;
+    margin-left: 5.7%;
+}
+.other-skills:hover{
+    border-radius: 20px;
+    background-color: rgb(0, 0, 10);
+    transform: scale(1.01);
+    box-shadow: 2px 3px 30px rgba(163,124,254,0.9);
+}
+
+
+.btn{
+    border: 0.5px;
+    border-radius: 10px;
+    color: rgb(0,0,43);
+    height: 3em;
+    background-image: linear-gradient(180deg,rgb(128, 128, 170,1) 10%,rgb(135, 206, 235,1) 90%);
+}
+
+.btn:hover{
+    color: rgb(0,0,203);
+    height: 3.5em;
+    background-image: linear-gradient(180deg,rgb(135, 206, 235,1) 10%,rgb(128, 128, 170,1) 90%);
+}
