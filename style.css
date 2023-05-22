@@ -7,8 +7,8 @@
 
 .header{
     padding: 5%;
-    background-image: url("bg.jpeg");
-    background-color: rgba(116, 215, 255, 0.5);
+    background-image: url("bg.jpg");
+    background-color: rgb(255, 255, 255);
     background-blend-mode: multiply;
     background-size:cover;
     border-bottom:solid 5px;
@@ -26,8 +26,29 @@
                 rgba(0, 0, 0, 0.25) 0px 54px 55px,
                 rgba(0, 0, 0, 0.22) 0px -12px 30px,
                 rgba(0, 0, 0, 0.22) 0px 4px 6px,
-                rgba(0, 0, 0, 0.27) 0px 12px 13px,
+                rgba(0, 0, 0, 0.632) 0px 12px 13px,
                 rgba(0, 0, 0, 0.19) 0px -3px 5px;
+}
+
+.theme-button{
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 170%;
+    background-color: rgba(199, 199, 255, 0.438);
+}
+.theme-button:hover{
+    background-color: rgb(199, 199, 255);
+    transform: scale(1.03);
+}
+
+.ed-table{
+    margin: auto;
+    border: 2px solid black;
+}
+.ed-table:hover{
+    transform: scale(1.03);
+    border: 1px solid rgba(0, 0, 0, 0.735);
 }
 
 para-1{
@@ -52,6 +73,17 @@ hr:hover{border-color: rgb(0,0,43);background: rgb(0,207,207);}
 }
 .mainhead:hover{color: rgb(20,20,30);transform: scaleX(1.1);text-shadow: 3px 3px rgba(0, 84, 84, 0.489);}
 
+.education{
+    text-align: center;
+}
+
+.skills-div:hover{
+    border-radius: 20px;
+    background-color: rgb(107, 191, 251);
+    transform: scale(1.02);
+    box-shadow: 2px 3px 30px black;
+}
+
 .heading{color: rgb(10, 10, 30);padding-left: 10%;}
 .heading:hover{color: rgb(10,10,40);transform: scaleX(1.02);text-shadow:2px 2px rgba(0, 84, 84, 0.489);}
 
@@ -68,8 +100,9 @@ thead{color: rgb(15,15,30);}
     margin: 0;
 }
 .row:hover{
-    background-color: rgba(0, 226, 226, 0.879);
+    background-color: rgb(107, 191, 251);
     transform: scale(1.05);
+    box-shadow: 2px 3px 30px black;
 }
 
 .footer{
@@ -88,6 +121,16 @@ thead{color: rgb(15,15,30);}
     transform: scale(1.05);
 }
 
+.other-skills{
+    padding: 0.4%;
+    margin-left: 5.7%;
+}
+.other-skills:hover{
+    border-radius: 20px;
+    background-color: rgb(107, 191, 251);
+    transform: scale(1.01);
+    box-shadow: 2px 3px 30px black;
+}
 
 .btn{
     border: 0.5px;
